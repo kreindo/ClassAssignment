@@ -9,7 +9,7 @@ const navRender = () => {
         const a = document.createElement("a")
         li.className = 'navmenu-button'
         a.textContent = menu
-        a.href = `${menu}.html`
+        a.href = `#${menu}`
         li.appendChild(a)
         nav.appendChild(li)
     }
